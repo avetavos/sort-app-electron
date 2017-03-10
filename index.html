@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="icon" href="img/icon.gif" type="image/gif">
+    <title>Sort Application</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="jumbotron font-fix">
+            <h1 class="head-mar">Sort Number Application</h1>
+        </div>
+    </header>
+    <div class="alert text-center">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+        <p class="font-fix-thai">
+            <strong>ตำเตือน !</strong>
+        </p>
+        <p class="font-fix-thai">
+          - กรุณากรอกตัวเลขแล้วเว้นวรรคเพื่อตัวเลขต่อไป
+        </p>
+        <p class="font-fix-thai">
+          - เลือกรูปแบบการจัดเรียง
+        </p>
+    </div>
+    <div class="form-horizontal container">
+        <div class="col-lg-6 col-lg-offset-3">
+            <input type="text" name="int2cal" class="form-control">
+        </div>
+        <div class="col-lg-6 col-lg-offset-3 font-fix radio-font-size padding-form">
+            <div class="radio">
+                <input type="radio" name="option" value="bubble">&emsp;Bubble Sort
+            </div>
+            <div class="radio">
+                <input type="radio" name="option" value="quick">&emsp;Quick Sort
+            </div>
+            <div class="radio">
+                <input type="radio" name="option" value="insert">&emsp;Insertion Sort
+            </div>
+            <div class="radio">
+                <input type="radio" name="option" value="select">&emsp;Selection Sort
+            </div>
+            <div class="radio">
+                <input type="radio" name="option" value="merge">&emsp;Merge Sort
+            </div>
+        </div>
+        <div class="col-lg-6 col-lg-offset-3 text-center margin-around">
+            <button type="button" class="btn btn-success btn-lg font-fix btn-size btn-font-size" name="calbtn" onclick="#">Sort</button>
+        </div>
+    </div>
+</body>
+
+</html>

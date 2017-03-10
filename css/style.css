@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Teko');
+@import url('https://fonts.googleapis.com/css?family=Prompt');
+.black-wp {
+    background-color: #000;
+    width: 100%;
+}
+
+.font-fix {
+    font-family: 'teko';
+}
+
+.head-mar {
+    margin: 0 5%;
+}
+
+.alert {
+    padding: 0px;
+    background-color: #f4cf36;
+    color: #00;
+}
+
+.closebtn {
+    margin: 15px 15px;
+    color: #000;
+    font-weight: bold;
+    float: right;
+    font-size: 30px;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.container {}
+
+.font-fix-thai {
+    font-family: 'Prompt';
+    font-size: 20px;
+}
+
+.btn-size {
+    width: 60%;
+}
+
+.radio-font-size {
+    font-size: 25px;
+}
+
+.btn-font-size {
+    font-size: 35px;
+}
+
+input[type=radio] {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.padding-form {
+  padding: 3% 3%;
+}
+
+.margin-around {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
