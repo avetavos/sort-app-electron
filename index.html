@@ -22,15 +22,15 @@
             <strong>ตำเตือน !</strong>
         </p>
         <p class="font-fix-thai">
-          - กรุณากรอกตัวเลขแล้วเว้นวรรคเพื่อตัวเลขต่อไป
+            => กรุณากรอกตัวเลขแล้ว "-" เพื่อตัวเลขต่อไป
         </p>
         <p class="font-fix-thai">
-          - เลือกรูปแบบการจัดเรียง
+            => เลือกรูปแบบการจัดเรียง
         </p>
     </div>
     <div class="form-horizontal container">
         <div class="col-lg-6 col-lg-offset-3">
-            <input type="text" name="int2cal" class="form-control">
+            <input type="text" id="intToCal" class="form-control" value="333">
         </div>
         <div class="col-lg-6 col-lg-offset-3 font-fix radio-font-size padding-form">
             <div class="radio">
@@ -50,7 +50,8 @@
             </div>
         </div>
         <div class="col-lg-6 col-lg-offset-3 text-center margin-around">
-            <button type="button" class="btn btn-success btn-lg font-fix btn-size btn-font-size" name="calbtn" onclick="#">Sort</button>
+            <button type="button" class="btn btn-success btn-lg font-fix btn-size btn-font-size" name="calbtn" onclick="sortInt('option');getValue()">Sort</button>
+            <script src="js/bubble.js"></script>
         </div>
     </div>
 </body>
